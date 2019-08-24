@@ -14,7 +14,7 @@ var transport = nodemailer.createTransport(smtpTransport({
 }));
 var msg = {
   transport :  transport,
-  text : "U got a mail from Node.js by krishnkant tiwari"  ,  //Message
+  text : "U got a mail from Node.js by Rohan Rajput"  ,  //Message
   from : "<rohanrajput32843@gmail.com>",                 //From
   subject : "Mail with the help of Nodejs"          //Subject
 };
