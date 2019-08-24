@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const writeStream = fs.createWriteStream('post.csv');
 writeStream.write(`Title,Link,Date \n`);
-request('http://codedemos.com/sampleblog', (error, response, html) => {
+request('http://....', (error, response, html) => {
   if (!error && response.statusCode == 200) {
     const $ = cheerio.load(html);
 
